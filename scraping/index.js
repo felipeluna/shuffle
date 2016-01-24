@@ -2,7 +2,7 @@ var cheerio = require("cheerio");
 var request = require("request");
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/shuffle');
+mongoose.connect("mongodb://ash:asdqweert123'@ds049935.mongolab.com:49935/shuffle");
 var db = mongoose.connection;
 
 
